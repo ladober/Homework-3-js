@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.input-todo {
+    border: none;
+    outline: none;
+    width: 500px;
+    height: 25px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+
+.header-wraper {
+    display: flex;
+    justify-content: center;
+}
+
+.header-container {
+    background-color: orangered;
+    width: 700px;
+    height: 90px;
+}
+.header-wraper-title {
+    display: flex;
+    justify-content: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#js-add-btn {
+    margin-top: 7px;
+    border: none;
+    outline: none;
+    width: 90px;
+    height: 25px;
+    background-color: rgb(201, 198, 198);
+}
+
+.app-container {
+    display: flex;
+    justify-content: center;
+}
+
+.inner-app-container {
+    width: 700px;
+    height: 38px;
+    text-align: left;
+}
+.new-todo {
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(196, 195, 195);
+}
+
+.new-todo h1 {
+    margin-left: 50px;
+}
+.new-todo img {
+    margin-right: 50px;
+}
+
+
