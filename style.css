@@ -8,6 +8,11 @@ button{
     background-color: rgb(196, 195, 195);
     cursor: pointer;;
 }
+
+button img {
+    pointer-events: none;
+}
+
 .input-todo {
     border: none;
     outline: none;
@@ -53,28 +58,24 @@ button{
     justify-content: center;
 }
 
-.done-btn{
-    display: flex;
-    justify-content: space-between;
+.new-todo {
     width: 700px;
     height: 38px;
+    background-color: rgb(196, 195, 195);
 }
 
 .inner-app-container{
     display: flex;
-    justify-content: center;
-    margin-left: 10px;
-}
-
-.new-todo {
-    width: 700px;
-    display: flex;
     justify-content: space-between;
-    align-items: center;
-    background-color: rgb(196, 195, 195);
+    margin: 0px 10px;
 }
 
-.new-todo h1 {
+.done-btn{
+    display: flex;
+    align-items: center;
+}
+
+.new-todo-h1 {
     margin-left: 25px;
 }
 
@@ -88,10 +89,6 @@ button{
 .done {
     text-decoration: line-through;
     color: green;
-}
-
-.btn-action img {
-    pointer-events: none;
 }
 
 
